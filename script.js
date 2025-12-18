@@ -255,7 +255,7 @@ const questionPool = [
 let questions =[];
 let currentIndex = 0;
 let score = 0;
-const totalQuestions = 10;
+
 
 const quiz = document.getElementById("quiz");
 const questionNumberEl = document.getElementById("question-number");
@@ -271,6 +271,7 @@ window.addEventListener("DOMContentLoaded",() =>{
 })
 
 function initializeQuiz(){
+    totalQuestions = parseInt(prompt("How many questions you want to play?"));
     questions = shuffleArray(questionPool).slice(0,totalQuestions);
     currentIndex = 0;
     score = 0;
