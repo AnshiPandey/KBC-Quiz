@@ -96,13 +96,7 @@ body{
   margin-bottom: 20px;
 }
 .restart-btn {
-  background-color: #ffcc00;
-  color: #000;
-  border: none;
-  font-weight: 700;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 4px;
+  margin-bottom: 10px;
 }
 .correct-option {
   background-color: #22bb33 !important;
